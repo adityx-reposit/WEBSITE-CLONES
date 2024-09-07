@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 3;
+  backdrop-filter: blur(2rem);
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  z-index: 2;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  bottom: 5%;
+  left: 15%;
+}
+.profile-photo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.link img {
+  width: 30px;
+  height: 30px;
+}
+.dashboard {
+  width: 20%;
+  justify-content: space-evenly;
+  float: left;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 165px;
+  padding-bottom: 520px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+.links {
+  display: grid;
+  margin: 2rem, 0rem;
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.skills {
+  width: 80%;
+
+  float: left;
+}
